@@ -58,7 +58,7 @@ async function Page({ params }: { params: { id: string } }) {
               <ThreadsTab
                 currentUserId={user.id}
                 accountId={userInfo.id}
-                accountTape="User"
+                accountType="User"
               />
             </TabsContent>
           ))}
